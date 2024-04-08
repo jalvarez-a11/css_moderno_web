@@ -1,0 +1,54 @@
+*{
+    list-style-type: none;
+    padding: 5vh;   
+box-sizing: border-box;
+}
+
+body {
+    background-color: black;   
+  }
+  nav ul {
+    background-color: rgb(77, 75, 75);
+    color: brown;
+    height: 20vh;
+    padding: 10vh;
+    display: flex;
+    justify-content:center;
+    /*vertical*/
+    align-items: center;
+  }
+  img {
+    background-color: rgb(92, 94, 94);
+    width: 5vw;
+    padding: 1vh;
+    height: 10vh;
+  }
+  .verde {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5vh;
+  }
+  .verde :hover {
+    padding: 10px;
+    border-bottom: 3px solid #c23460;
+  } 
+  .interectable :hover {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+    font-size: 10vh;
+    margin: 10px;
+    padding: 5vh;
+  }
+  #identity {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5vh;
+  }
+  #identity:hover{
+    padding: 10px;
+    border-bottom: 3px solid #c23460;
+  }
